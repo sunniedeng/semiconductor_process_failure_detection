@@ -10,5 +10,5 @@ Secondly, because there were 591 features and only 1567 examples, I used boruta 
 
 Thirdly, because the dataset is imbalanced (14:1), I used resampling technique on train set.
 
-At last, I tried several algorithms, and achieved best result by random forest tuning with randomized search CV. 
-We want to detect failures so we will focus on recall. Recall is 0.90. Auc-ROC score is 0.8.
+At last, I tried several algorithms, and achieved best result by random forest tuning with randomized search CV. I ranked 8 features by feature importance. 
+We want to detect failures so we will focus on recall. Recall is 0.90. Auc-ROC score is 0.8. 
